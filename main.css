@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, #ADA2FF 20%, #C0DEFF 80%, #C0DEFF 100%);
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    min-height: 900px;
+}
+
+header {
+    font-size: 30px;
+    font-family: 'Rock Salt', cursive;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+header, form {
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    min-width: 40%;
+}
+
+form input, form button {
+    padding: 8px;
+    font-size: 24px;
+    border: none;
+    background: #ffffff;
+}
+
+form button {
+    color: #ADA2FF;
+    background: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 20px;
+}
+
+form button:hover {
+    background: #ADA2FF;
+    color: #ffffff;
+}
+
+.containerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaDIV {
+    min-width: 30%;
+    list-style: none;
+}
+
+.lista {
+    margin: 24px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.lista li {
+    flex: 1;
+}
+
+.lixeira,
+.completedBtn {
+    background: #ADA2FF;
+    color: #ffffff;
+    border-color: #C0DEFF;
+    padding: 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.completedBtn:hover {
+    background: #97DECE;
+}
+
+.lixeira:hover {
+    background: #FFE5F1;
+}
+
+.itemLista {
+    padding: 0 8px;
+}
+
+.fa-trash, .fa-check {
+    pointer-events: none;
+}
+
+.completed {
+    opacity: 0.5;
+}
+
+.queda {
+    transform: translateY(128px) rotateZ(20deg);
+    opacity: 0;
+}

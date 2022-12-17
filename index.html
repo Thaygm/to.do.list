@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header>
+        <h1>to do LIST</h1>
+    </header>
+
+    <form>
+        <input type="text" placeholder="escreva a sua nova tarefa" class="inputTarefa">
+        <button type="submit" class="submitButton">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+
+    <div class="containerList">
+        <ul class="listaDIV"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
